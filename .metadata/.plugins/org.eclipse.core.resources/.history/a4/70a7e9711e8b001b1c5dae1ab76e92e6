@@ -1,0 +1,14 @@
+package br.com.gama.lojaxpto;
+
+public class Cliente {
+	
+	private String cliente;
+	private String email;
+	
+	
+	
+	
+	
+	
+
+}

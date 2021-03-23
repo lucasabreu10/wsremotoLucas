@@ -1,0 +1,16 @@
+package br.com.gama.lojaxpto;
+
+public class Venda {
+	
+	private int notaFiscal;
+	private float total;
+	private Cliente cliente;
+	private Produto produto;
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,10 @@
+package br.com.gama.lojaxpto;
+
+public class Fabricante {
+	
+	private String cnpj;
+	private Stirng razaoSocial;
+	private String telefone;
+	
+
+}

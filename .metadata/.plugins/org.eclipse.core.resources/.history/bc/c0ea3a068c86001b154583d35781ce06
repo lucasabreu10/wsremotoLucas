@@ -1,0 +1,17 @@
+package decisao;
+
+public class Correcaoexercicio04 {
+
+	public static void main(String[] args) {
+
+
+		int numero01 = Integer.parseInt(JOptionPane.showInputDialog("Digite o nuemro01 "));
+		int numero02 = Integer.parseInt(JOptionPane.showInputDialog("Digite o nuemro02 "));
+		int numero03 = Integer.parseInt(JOptionPane.showInputDialog("Digite o nuemro03 "));
+
+		if(numero01 == numero02 || numero02 == numero03 || numero01 == numero03) {
+			System.out.println("Existem numero iguais");
+
+			
+		}
+	}}

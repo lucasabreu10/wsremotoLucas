@@ -1,0 +1,25 @@
+package variaveis;
+
+public class TipoString {
+
+	public static void main(String[] args) {
+		
+		String email = "lUcAsAbrEu@hotmail.com";
+		System.out.println("Original:" + email);
+		System.out.println("Minuscula:" + email.toLowerCase());
+		System.out.println("Maiuscula: " + email.toUpperCase());
+		System.out.println("Qntde de caracteres: " + email.length());	
+		System.out.println("É igual: " + email.equals("lUcAsAbrEU@hotmail.com"));
+		System.out.println("É igual: " + email.equalsIgnoreCase("lucasabreu@hotmail.com"));
+		System.out.println("Contém: " + email.contains("@"));
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+}

@@ -1,0 +1,34 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class Exercico2 {
+
+	public static void main(String[] args) {
+		
+		
+		String nome = "";
+		int idade = 0;
+		String cadastro = "";
+		
+		do {
+			
+			nome = JOptionPane.showInputDialog("Digite o nome");
+			idade = Integer.parseInt(JOptionPane.showInputDialog("Digite a Idade"));
+			cadastro = JOptionPane.showInputDialog("Se deseja sair digite N");
+			
+			
+			
+			
+		} while (cadastro != "n" );
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+}

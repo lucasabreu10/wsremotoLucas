@@ -1,0 +1,14 @@
+package br.com.gama.bankofoz;
+
+public class Corrente {
+	
+	private int id;
+	private String nome;
+	private String cpf;
+	private String fones;
+
+	
+	
+	
+
+}

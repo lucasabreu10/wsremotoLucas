@@ -1,0 +1,42 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class TesteTipos {
+	
+	public static void main(String[] args) {
+		
+		String produto = JOptionPane.showInputDialog("Digite o produto");
+		int quantidade = Integer.parseInt(JOptionPane.showInputDialog("Digite a quantidade"));
+		double imposto = Double.parseDouble(JOptionPane.showInputDialog("Digite o imposto"));
+		int valorunit = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor unitário"));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+
+}

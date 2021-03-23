@@ -1,0 +1,45 @@
+package variaveis;
+
+public class TiposDados {
+	
+	public static void main(String[] args) {
+		
+		String nome = "LucasAbreu";
+		int idade = 29;
+		double altura = 1.78;
+		
+		System.out.print(nome);
+		System.out.print(idade);
+		System.out.print(altura);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

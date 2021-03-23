@@ -1,0 +1,48 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class Exercico2 {
+
+	public static void main(String[] args) {
+		
+		
+		String nome = "";
+		int idade = 0;
+		String cadastro = "";
+		int contador = 0;
+		int maiores =0;
+		int idadetotal = 0;
+		
+		do {
+			contador = contador +1;
+			
+			nome = JOptionPane.showInputDialog("Digite o nome");
+			
+			idade = Integer.parseInt(JOptionPane.showInputDialog("Digite a Idade"));
+			idadetotal = idade + idade;
+			if(idade > 18) {
+				maiores = maiores +1;
+			}
+			cadastro = JOptionPane.showInputDialog("Se deseja sair digite sair ");
+			
+			
+			
+			
+		} while (cadastro.equals("sair") == false);
+		
+		System.out.println("numero de pessoas maiores" + maiores);
+		System.out.println("média da idade" + idadetotal/contador);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+}

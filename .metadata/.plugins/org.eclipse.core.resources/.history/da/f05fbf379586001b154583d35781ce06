@@ -1,0 +1,27 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ExercicoRepeticao {
+
+	public static void main(String[] args) {
+		
+		int aposta = Integer.parseInt(JOptionPane.showInputDialog("Digite o numero da aposta"));
+		int resposta = 0;
+		
+		do {	
+			resposta = Integer.parseInt(JOptionPane.showInputDialog("Digite a resposta"));
+					
+					if(resposta!=aposta) {
+						System.out.println("Errou!!!");
+						
+					}else 				
+						System.out.println("Parabéns!!!");
+
+						
+							
+	} 		while (resposta != aposta);
+
+	
+}
+}

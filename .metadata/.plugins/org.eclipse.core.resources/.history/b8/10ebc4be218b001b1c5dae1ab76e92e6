@@ -1,0 +1,17 @@
+package br.com.gama.implementacao;
+
+import br.com.gama.lojaxpto.Cliente;
+import br.com.gama.lojaxpto.Fabricante;
+import br.com.gama.lojaxpto.Produto;
+import br.com.gama.lojaxpto.Venda;
+
+public class TesteLojaxpto {
+	
+	
+	Cliente cliente = new cliente();
+	Fabricante fabricante = new fabricante();
+	Produto produto = new produto();
+	Venda venda = new venda()
+
+
+}

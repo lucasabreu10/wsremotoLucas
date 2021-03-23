@@ -1,0 +1,25 @@
+package br.com.gama.modelo;
+
+/*
+ * *Designt Patterne >> conjunto com as melhores prativas para POO
+ * 
+ *  
+ */
+
+
+public class Aluno {
+
+	private String nome;
+	private int matricula;
+	private String email;
+	private String fone;
+	
+	public String retornarNome() {
+		return nome;
+	}
+	
+	public void preencherNome (String nome) {
+		this.nome = nome;
+	}
+	
+}

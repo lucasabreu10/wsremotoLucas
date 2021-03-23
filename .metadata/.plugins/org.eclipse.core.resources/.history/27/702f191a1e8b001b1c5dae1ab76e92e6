@@ -1,0 +1,21 @@
+package br.com.gama.lojaxpto;
+
+public class Produto {
+
+	private int id;
+	private String descricao;
+	private fabricante Fabricante;
+	private float valorVenda;
+	private float valorCompra;
+	private int qtde;
+	
+	
+	public float totalEstoqueVenda();
+	{
+		
+	}
+	
+	
+	
+	
+}

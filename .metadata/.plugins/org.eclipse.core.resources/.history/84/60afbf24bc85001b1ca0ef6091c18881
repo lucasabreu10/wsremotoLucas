@@ -1,0 +1,35 @@
+package variaveis;
+
+public class TiposPrimitivos {
+	public static void main(String[] args) {
+		
+		String time1 = "ABC";
+		String time2 = "XPTO";
+		double entrada=100.0;
+		int publico = 15000;
+		double total = entrada * publico;
+		
+		
+		
+		System.out.printf(" No Jogo entre %s x %s a arrecadacao foi de R$ 5.2f", time1, time2, total)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+
+}

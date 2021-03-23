@@ -1,0 +1,39 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDecisao {
+
+	public static void main(String[] args) {
+		
+		float dias = Float.parseFloat(JOptionPane.showInputDialog("Digite o nuemro de diarias"));		
+		float vldiaria = 80;
+		
+		
+		if(dias > 15 ) {
+			double valortotal = (vldiaria * dias)+(5.50 * dias);
+			System.out.println("A sua conta ficou no valor de: " + valortotal);
+		}
+		
+		if(dias == 15 ) {
+			float valortotal = (vldiaria * dias)+(6 * dias);
+			System.out.println("A sua conta ficou no valor de: " + valortotal);
+		}
+				
+		
+		if(dias < 15 ) {
+			float valortotal = (vldiaria * dias)+(8 * dias);
+			System.out.println("A sua conta ficou no valor de: " + valortotal);
+		}
+		
+		
+		
+		
+	}
+		
+		
+	}
+	
+	
+	
+
